@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    // App
+
+    <string name="app_name">PDF Creator</string>
+    <string name="app_permissions_title">Permisos usados</string>
+    <string name="app_permissions">
+
+        &lt;i>Permido de acceso a espacio de almacenamiento:&lt;/i>&lt;br>
+        Usado para leer archivos (imagénes) desde la tarjeta SD y guardar archivos PDF.&lt;br>&lt;br>
+
+        &lt;i>Conceder permiso más tarde:&lt;/i>&lt;br>
+        Si no lo permite ahora, puede hacerlo más tarde. Por favor abra \"Ajustes -> Información de la aplicación\" y seleccione \"Permisos\".</string>
+    <string name="app_landscape">Horizontal</string>
+    <string name="app_share_file">Elija el archivo con:</string>
+
+
+    // App titles
+
+    <string name="create_image">Imagen a PDF</string>
+    <string name="create_text">Texto a PDF</string>
+    <string name="add_image">+ imagen</string>
+    <string name="add_text">+ texto | …</string>
+    <string name="app_title_edit">Editar imagen</string>
+    <string name="app_title_crop">Recortar imagen</string>
+    <string name="app_portrait">Vertical</string>
+
+
+    // Snackbar // Toasts
+
+    <string name="toast_yes">OK</string>
+    <string name="toast_cancel">Cancelar</string>
+    <string name="toast_successfully">PDF creado correctamente.</string>
+    <string name="toast_wait">Imagénes creadas correctamente. Abrir carpeta?</string>
+    <string name="toast_successfully_not">Ocurrió un error.</string>
+    <string name="toast_open">Abrir?</string>
+    <string name="toast_install_app">Por favor instala una aplicación para realizar una acción.</string>
+    <string name="toast_noImage">Por favor elija una imagen.</string>
+    <string name="toast_noPDF">Escoja o cree un archivo PDF.</string>
+    <string name="toast_noText">Por favor ingrese el texto.</string>
+    <string name="toast_savedImage">Por favor espere. Guardando imagen.</string>
+    <string name="toast_notAgain">No mostrar de nuevo</string>
+    <string name="toast_extension">Extensión de archivo no soportada</string>
+    <string name="toast_edited">La imagen fue editada. Guardar?</string>
+    <string name="toast_no">No</string>
+    <string name="toast_remove_confirmation">La entrada se eliminará. OK?</string>
+    <string name="toast_directory">No se puede abrir el directorio.</string>
+    <string name="toast_files">No hay archivos en el directorio.</string>
+    <string name="toast_picFile">Por favor, elija el archivo imagen.</string>
+    <string name="toast_pdfFile">Por favor, elija el archivo PDF.</string>
+
+
+    // Main menu
+
+    <string name="action_share">Compartir PDF</string>
+    <string name="action_open">Abrir PDF</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_share_with">Compartir PDF con:</string>
+    <string name="action_share_Text">En el archivo adjunto puede encontrar el archivo PDF:</string>
+    <string name="action_help">Ayuda</string>
+
+
+    // Fragments
+
+    <string name="app_title">Por favor ingrese el título:</string>
+    <string name="app_title_date">Fecha</string>
+    <string name="app_hint" tools:ignore="TypographyEllipsis">El que usted desee...</string>
+
+
+    // Text fragment
+
+    <string name="add_text_delete">Eliminar páginas</string>
+    <string name="add_text_delete_hint">Qué páginas quieres conservar?</string>
+    <string name="add_text_hint_enterText">Escribir o pegar texto</string>
+    <string name="add_text_meta_doc">Editar metadatos existentes</string>
+    <string name="add_text_meta_default">Crear nuevos metadatos</string>
+
+
+    // Editor
+
+    <string name="filter_1">Contraste</string>
+    <string name="filter_2">Matiz</string>
+    <string name="filter_3">Brillo</string>
+    <string name="filter_4">Nitidez</string>
+    <string name="filter_5">Saturación</string>
+
+    <string name="filter_6">Exposición</string>
+    <string name="filter_7">Resaltar la sombra</string>
+    <string name="filter_8">Balance de blancos</string>
+    <string name="filter_9">Balance de color</string>
+    <string name="filter_10">Niveles Mín (Ajuste medio)</string>
+
+
+    // Dialogs
+
+    <string name="dialog_encryption_hint_ownerPW">Contraseña del propietario</string>
+    <string name="dialog_encryption_hint_userPW">Contraseña de usuario</string>
+    <string name="choose_title">Editar nombre del archivo</string>
+    <string name="choose_filter">Elegir filtro</string>
+
+
+    // Settings
+
+    <string name="settings_prefApp">Acerca de la aplicación</string>
+    <string name="settings_prefDir">Directorio de la aplicación</string>
+    <string name="settings_prefEnc">Cifrado</string>
+    <string name="settings_prefMeta">Metadatos</string>
+
+    <string name="pref_imageQuality">Calidad de la imagen</string>
+    <string name="pref_imageQuality_summary">Ajuste la calidad de la imagen. Una mayor calidad produce tamaños de PDF mucho más grandes.</string>
+
+    <string name="pref_backup">Copia de seguridad </string>
+    <string name="pref_backup_summary">Desea respaldar los arhivos pdf antes de manipularlos, es decir, antes de eliminarlos o agregarles páginas?</string>
+
+    <string name="pref_folder">Directorio personalizado</string>
+    <string name="pref_folder_hint">Formato: \"/Download/PDF/\"</string>
+    <string name="pref_folder_summary">Dejar vacío para usar el directorio predeterminado (\"/Android/data/de.baumann.pdf/\"). Ingrese la ruta
+        a la carpeta deseada en su tarjeta SD. La ruta debe comenzar y terminar con \"/\" como \"/Download/PDF/\".
+        Si el directorio deseado no existe, se generará automáticamente.</string>
+
+    <string name="pref_metaAuthor">Autor</string>
+
+    <string name="pref_metaTitle">Título</string>
+    <string name="pref_metaCreator">Creador</string>
+    <string name="pref_metaKeywords">Palabras claves</string>
+    <string name="pref_metaSubject">Tema</string>
+
+    <string name="action_openSettings">Información de la aplicación</string>
+    <string name="action_openSettings_summary">Abrir a través de la configuración del sistema la información de la aplicación. Aquí puede,
+        dependiendo de su versión Android, gestionar varias cosas (Almacenamiento, tráfico de red, permisos…).</string>
+
+    <string-array name="listArrayImage">
+        <item>Alta (100%)</item>
+        <item>Normal (80%)</item>
+        <item>Baja (60%)</item>
+    </string-array>
+
+    <string-array name="listValuesImage">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+    </string-array>
+
+
+    //Image cropper
+
+    <string name="app_title_2">Guardando imagen…</string>
+    <string name="crop_image_menu_rotate_left">Girar a la izquierda</string>
+    <string name="crop_image_menu_rotate_right">Girar a la derecha</string>
+
+
+    //File chooser
+
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="choose_menu_2">Compartir</string>
+    <string name="choose_menu_3">Renombrar</string>
+    <string name="choose_menu_4">Eliminar</string>
+
+    <string name="choose_hint">Nuevo nombre de archivo</string>
+
+    <string name="action_sort">Organizar entradas</string>
+    <string name="action_sort_title">Organizar por título</string>
+    <string name="action_sort_create">Organizar por fecha</string>
+    <string name="action_sort_ext">Organizar por extensión</string>
+
+    <string name="action_filter">Buscar en entradas</string>
+    <string name="action_filter_title">Buscar en títulos</string>
+    <string name="action_filter_create">Buscar en fechas de creación</string>
+
+    <string name="filter_today">Hoy</string>
+    <string name="filter_yesterday">Ayer</string>
+    <string name="filter_before">Anteayer</string>
+    <string name="filter_month">Este mes</string>
+    <string name="filter_own">Búsqueda propia</string>
+    <string name="filter_clear">Cancelar búsqueda</string>
+
+    <string name="sort_title">título</string>
+    <string name="sort_date">fecha</string>
+    <string name="sort_extension">extensión</string>
+
+    <string name="choose_titleMain">Archivos</string>
+    <string name="title_hint">Títulos</string>
+
+
+    // About
+
+    <string name="about_settings">… y otras cosas</string>
+    <string name="about_settings_text">Registro de cambios, ayuda, licencia, librerías usadas y más.</string>
+
+    <string name="about_title_main">Acerca de PDF Creator</string>
+    <string name="about_title_dev">Desarrollador</string>
+    <string name="about_title_libs">Librerías de código abierto usadas</string>
+    <string name="about_title_ext">Extensión</string>
+
+    <string name="about_title_con">Colaboradores</string>
+    <string name="about_title_con1">Traducción al japonés</string>
+
+    <string name="about_changelog">Registro de cambios</string>
+    <string name="about_changelog_summary">Abrir el sitio en GitHub y mira que hay de nuevo… (necesita conexión a internet)</string>
+
+    <string name="about_license">Licencia</string>
+    <string name="about_license_summary">La aplicación está licenciada bajo GPL y completamente código abierto y gratuito (como en la libertad).</string>
+
+    <string name="about_dev">Gaukler Faun</string>
+    <string name="about_dev_summary">Abrir mi perfil en Github (necesita conexión a internet).</string>
+
+    <string name="about_ext">PDF Viewer</string>
+    <string name="about_ext_summary">Es un visor PDF basado en MuPDF y optimizado para trabajar con PDF Creator. Puede
+    descargar e instalar el archivo APK en el sitio GitHub (haz clic aquí). Ya que hay librerías precompiladas incluidas no puedo publicar
+    PDF Viewer en F-Droid.</string>
+
+    <string name="about_intro">Intro</string>
+    <string name="about_intro_summary">Mostrar la pantalla Intro una vez más.</string>
+
+    <string name="about_donate">Donar</string>
+    <string name="about_donate_summary">Si te gusta la aplicación, puedes donarme a través de Paypal (necesita conexión a Internet).</string>
+
+    <string name="about_license_2">Usada para cortar y rotar imagénes.</string>
+    <string name="about_license_3">Usada para construir la pantalla Intro.</string>
+    <string name="about_license_4">Usada para mejorar y manipular imágenes.</string>
+    <string name="about_license_5">Usada para crear y manipular archivos PDF.</string>
+    <string name="about_license_6">Usada para convertir archivos PDF a imágenes.</string>
+    <string name="about_license_7">Usada para crear \"About screen\".</string>
+    <string name="about_license_8">La fuente de casi todos los iconos.</string>
+    <string name="about_license_9">Una poderosa librería de descarga y almacenamiento de imágenes para Android.</string>
+    <string name="about_license_1">Librería de Android para elegir fácilmente una imagen de una aplicación de galería o cámara.</string>
+
+
+    // Intro
+
+    <string name="intro_skip">Omitir</string>
+    <string name="intro_finish">Iniciemos</string>
+
+    <string name="intro1_title">PDF Creator</string>
+    <string name="intro1_text">Gracias por escoger \"PDF Creator\". Es completamente libre y todavía está en desarrollo.
+        Puede acceder a un diálogo de ayuda corto en cada ficha presionando \"menú -> ayuda\"…</string>
+
+    <string name="intro2_title">Las pestañas</string>
+    <string name="intro2_text">Tienes un copilador en el explorador de archivos. Puede crear nuevos archivos PDF desde una imagen o desde un texto o
+        manipular archivos PDF existentes.</string>
+
+    <string name="intro3_title">Es bueno saber:</string>
+    <string name="intro3_text">En la parte inferior se puede ver el nombre actual del PDF y el formato. Presionando en esta área
+        puede cambiar entre el formato vertical y horizontal para su página PDF.</string>
+</resources>

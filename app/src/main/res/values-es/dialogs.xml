@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //License Dialog
+
+    <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
+    <string name="about_text">
+        &lt;i>Para más información visita el sitio del proyecto en GitHub:&lt;br>
+        https://github.com/scoute-dich/PDFCreator&lt;/i>&lt;br>&lt;br>
+
+         Este programa es software libre: se puede redistribuir y/o modificar
+         bajo los términos de la Licencia Pública General de GNU publicada por
+         Free Software Foundation, ya sea la versión 3 de la Licencia, o
+         (a su elección) cualquier versión posterior.
+
+         Este programa se distribuye con la esperanza de que sea útil,
+         pero SIN NINGUNA GARANTÍA; sin la garantía implícita de
+         COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Vea la
+         Licencia Pública General de GNU para más detalles.
+
+         Usted debería haber recibido una copia de la Licencia Pública General de GNU
+         junto con este programa. Si no, vea http://www.gnu.org/licenses.
+    </string>
+
+
+    //Help Dialog
+
+
+    //Create image Dialog
+
+    <string name="dialog_createImage">
+
+        &lt;b>Qué puedo hacer aquí?&lt;/b>&lt;br>
+        Aquí puedes crear una unica página PDF desde una imagen.&lt;br>&lt;br>
+
+        &lt;b>Botones&lt;/b>&lt;br>
+        &lt;i>De arriba a abajo en el lado derecho.&lt;/i>&lt;br>&lt;br>
+
+        &#8226; &lt;i>Cámara:&lt;/i> usted puede elegir su imagen. Ya sea desde la galería, el gestor de archivos o tomar una nueva con la cámara.&lt;br>
+        &#8226; &lt;i>Recortar:&lt;/i> recorte y gire la imagen. Después de aplicar un filtro, debe guardarla cada vez.&lt;br>
+        &#8226; &lt;i>Editar:&lt;/i> haga algunas mejoras básicas.&lt;br>
+        &#8226; &lt;i>FAB (naranja):&lt;/i> cree el PDF.&lt;br>&lt;br>
+
+        &lt;b>Es importante saber:&lt;/b>&lt;br>
+        En la parte inferior se puede ver el nombre real del PDF y el formato. Al presionar esta área puede cambiar entre el formato vertical y horizontal para su página PDF.
+    </string>
+
+
+    //Add image Dialog
+
+    <string name="dialog_addImage">
+
+        &lt;b>Qué puedo hacer aquí?&lt;/b>&lt;br>
+        Aquí puedes agregar imágenes a un archivo PDF existente.&lt;br>&lt;br>
+
+        &lt;b>Botones&lt;/b>&lt;br>
+        &lt;i>De arriba a abajo en el lado derecho.&lt;/i>&lt;br>&lt;br>
+
+        &#8226; &lt;i>Cámara:&lt;/i> usted puede elegir su imagen. Ya sea desde la galería, el gestor de archivos o tomar una nueva con la cámara.&lt;br>
+        &#8226; &lt;i>Recortar:&lt;/i> recorte y gire la imagen. Después de aplicar un filtro, debe guardarla cada vez.&lt;br>
+        &#8226; &lt;i>Editar:&lt;/i> haga algunas mejoras básicas.&lt;br>
+        &#8226; &lt;i>PDF:&lt;/i> elija el PDF en el que se agregará la nueva página.&lt;br>
+        &#8226; &lt;i>FAB (naranja):&lt;/i> cree el PDF.&lt;br>&lt;br>
+
+        &lt;b>Es importante saber:&lt;/b>&lt;br>
+        En la parte inferior se puede ver el nombre real del PDF y el formato. Al presionar esta área puede cambiar entre el formato vertical y horizontal para su página PDF.
+    </string>
+
+
+    //Create text Dialog
+
+    <string name="dialog_createText">
+
+        &lt;b>Qué puedo hacer aquí?&lt;/b>&lt;br>
+        Aquí puedes crear una unica página PDF desde un texto. También tiene varias opciones para editar archivos PDF existentes.&lt;br>&lt;br>
+
+        &lt;b>Botones&lt;/b>&lt;br>
+        &#8226; &lt;i>FAB (naranja):&lt;/i> cree el PDF.&lt;br>&lt;br>
+
+        &lt;b>Es importante saber:&lt;/b>&lt;br>
+        En la parte inferior se puede ver el nombre real del PDF y el formato. Al presionar esta área puede cambiar entre el formato vertical y horizontal para su página PDF.
+    </string>
+
+
+    //Add text Dialog
+
+    <string name="dialog_addText">
+
+        &lt;b>Qué puedo hacer aquí?&lt;/b>&lt;br>
+        Aquí puedes agregar una página con texto a un archivo PDF existente.&lt;br>&lt;br>
+
+        &lt;b>Botones&lt;/b>&lt;br>
+        &lt;i>De arriba a abajo en el lado derecho.&lt;/i>&lt;br>&lt;br>
+
+        &#8226; &lt;i>Eliminar:&lt;/i> elimina páginas de un PDF existente.&lt;br>
+        &#8226; &lt;i>Unir:&lt;/i> une dos archivos PDF.&lt;br>
+        &#8226; &lt;i>Proteger:&lt;/i> protege un PDF existente con una contraseña. Usted puede establecer un propietario (necesario para editar un archivo PDF) y una contraseña de usuario (necesaria sólo para abrir un archivo PDF).&lt;br>
+        &#8226; &lt;i>Metadatos:&lt;/i> edite los metadatos de un PDF existente.&lt;br>
+        &#8226; &lt;i>Imagen:&lt;/i> convierte un PDF a imágenes.&lt;br>
+        &#8226; &lt;i>PDF:&lt;/i> elija el PDF que editará.&lt;br>
+        &#8226; &lt;i>FAB (naranja):&lt;/i> cree el PDF.&lt;br>&lt;br>
+
+        &lt;b>Es importante saber:&lt;/b>&lt;br>
+        En la parte inferior se puede ver el nombre real del PDF y el formato. Al presionar esta área puede cambiar entre el formato vertical y horizontal para su página PDF.
+    </string>
+
+</resources>
