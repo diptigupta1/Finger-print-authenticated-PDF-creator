@@ -1,6 +1,5 @@
 # Finger-print-authenticated-PDF-creator
-Pdf creator application
-My application is on android with java.
+Pdf creator application is on android with java.
 Pdf creator make the pdf of text and images. 
 the quality of pdf is so clean.
 the appliction is authenticated by finger print becouse of security purpose.
