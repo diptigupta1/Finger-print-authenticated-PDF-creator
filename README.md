@@ -1,6 +1,15 @@
-# Finger-print-authenticated-PDF-creator
-Pdf creator application is on android with java.
-Pdf creator make the pdf of text and images. 
-the quality of pdf is so clean.
-the appliction is authenticated by finger print becouse of security purpose.
-mostly it can be useful for office uses.
+
+Android application to create and edit Pdf files and authenticated by finger print. 
+Features:
+
+create PDF-pages from text or pictures
+add PDF-pages from text or pictures to existing PDFs
+merge PDFs
+protect PDFs with password
+delete pages from existing PDFs
+edit meta data from existing PDFs
+convert PDFs to images
+Permissions:
+
+"android.permission.WRITE_EXTERNAL_STORAGE" to create and manipulate PDf files
+
